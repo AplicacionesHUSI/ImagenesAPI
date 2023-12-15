@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Imagenes.API</name>
+    </assembly>
+    <members>
+        <member name="M:Imagenes.API.Controllers.HistoriaClinicaController.GetPaciente(Imagenes.API.Domain.Request.HistoriaClinicaRequest)">
+            <summary>
+            WS de Registrar en la historia clínica del paciente
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Imagenes.API.Controllers.MedicoController.AuthActiveUser(Imagenes.API.Domain.Request.UsuarioRequest)">
+            <summary>
+            WS de validación de médico en SAHI 
+            </summary>
+            <param name="usuarioRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Imagenes.API.Controllers.MedicoController.GetEspecialidades">
+            <summary>
+            WS devuelve las especialidades
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Imagenes.API.Controllers.MedicoController.GetMedicos(Imagenes.API.Domain.Request.DoctorRequest)">
+            <summary>
+            WS de buscar médico en SAHI 
+            </summary>
+            <param name="usuarioRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Imagenes.API.Controllers.PacienteController.GetPaciente(Imagenes.API.Domain.Request.PacienteRequest)">
+            <summary>
+            WS de Buscar paciente en SAHI  
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
