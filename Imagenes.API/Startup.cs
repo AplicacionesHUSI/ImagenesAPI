@@ -38,15 +38,15 @@ namespace Imagenes.API
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             var sqlstring = Configuration["ConnectionStrings:Dbconnection"];
-           
+
             //config DB
             services.AddDbContext<SahiDBContext>(options =>
             {
                 options.UseSqlServer(sqlstring, sqlOptions => { sqlOptions.EnableRetryOnFailure(maxRetryCount: 5, maxRetryDelay: TimeSpan.FromSeconds(30), errorNumbersToAdd: null); });
             });
-           
+
             //inyecccion 
-            
+
             services.AddTransient<IServiceDoctor, ServiceDoctor>();
             services.AddTransient<IRepositoryDoctor, RepositoryDoctor>();
             services.AddTransient<IServicePaciente, ServicePaciente>();
@@ -90,10 +90,18 @@ namespace Imagenes.API
             });
 
             // Set the comments path for the Swagger JSON and UI.
-          
+
 
             app.UseHttpsRedirection();
-            app.UseMvc();
+
+            app.UseRouting();
+
+            app.UseAuthorization();
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }

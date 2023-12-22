@@ -358,3 +358,76 @@
 2022-12-02 14:26:09.0760 Info Loading assembly: NLog.Web.AspNetCore
 2022-12-02 14:26:09.1532 Info Adding target FileTarget(Name=alldata)
 2022-12-02 14:26:09.1873 Info Found 24 configuration items
+2023-12-20 18:58:53.3443 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 18:58:53.4286 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 18:58:53.4871 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 18:58:53.5090 Info Configuration initialized.
+2023-12-20 18:58:58.0183 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 18:59:07.4107 Info Shutdown() called. Logger closing...
+2023-12-20 18:59:07.4107 Info Closing old configuration.
+2023-12-20 18:59:07.4107 Info Logger has been closed down.
+2023-12-20 19:00:38.7070 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 19:00:38.7807 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 19:00:38.8409 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:00:38.8567 Info Configuration initialized.
+2023-12-20 19:00:41.7580 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:05:12.1916 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 19:05:12.2457 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 19:05:12.2997 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:05:12.2997 Info Configuration initialized.
+2023-12-20 19:05:14.5561 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:06:54.3747 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 19:06:54.4379 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 19:06:54.4925 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:06:54.5066 Info Configuration initialized.
+2023-12-20 19:06:56.1451 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:10:18.3868 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 19:10:18.4438 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 19:10:18.4974 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:10:18.5126 Info Configuration initialized.
+2023-12-20 19:10:19.8680 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:39:07.5662 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 19:39:07.6304 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 19:39:07.6993 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 19:39:07.7190 Info Configuration initialized.
+2023-12-20 19:39:10.1249 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:02:47.2929 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 20:02:47.3359 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 20:02:47.3750 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:02:47.4140 Info Configuration initialized.
+2023-12-20 20:02:50.5813 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:04:59.2695 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 20:04:59.3164 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 20:04:59.3659 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:04:59.3916 Info Configuration initialized.
+2023-12-20 20:05:09.0370 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:05:56.6158 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 20:05:56.6767 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 20:05:56.7320 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:05:56.7509 Info Configuration initialized.
+2023-12-20 20:06:34.4911 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:08:38.1533 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 20:08:38.2051 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 20:08:38.2407 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:08:38.2563 Info Configuration initialized.
+2023-12-20 20:08:48.6320 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:21:12.7844 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-20 20:21:12.8286 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-20 20:21:12.8617 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-20 20:21:12.8784 Info Configuration initialized.
+2023-12-20 20:21:15.6107 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-21 16:17:30.9444 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-21 16:17:31.0563 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-21 16:17:31.1409 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-21 16:17:31.1570 Info Configuration initialized.
+2023-12-21 16:17:35.5169 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-21 16:19:24.3368 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-21 16:19:24.3789 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-21 16:19:24.4145 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-21 16:19:24.4296 Info Configuration initialized.
+2023-12-21 16:19:26.8142 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=C:\Users\glbetancur\Documents\Web Services\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-21 16:26:12.3562 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2023-12-21 16:26:12.4586 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2023-12-21 16:26:12.8242 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=\\Winpvtiflsrv01\departamento_ti\APLICACIONES\Analistas\glbetancur\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
+2023-12-21 16:26:13.4844 Info Configuration initialized.
+2023-12-21 16:26:17.6460 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=\\Winpvtiflsrv01\departamento_ti\APLICACIONES\Analistas\glbetancur\Nueva carpeta\Imagenes.API\bin\Debug\net8.0\nlog.config
