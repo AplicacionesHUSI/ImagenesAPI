@@ -11,5 +11,12 @@ namespace Imagenes.API.Domain.IService
     {
         Task<int> SaveElement(HistoriaClinicaRequest request);
         Task<Elemento> FindElemento(int IdElemento);
+
+        /// <summary>
+        /// Registrar elemento (foto, video, imagen o pdf)
+        /// </summary>
+        /// <param name="request">Datos que se almacenan en la bd.</param>
+        /// <returns>Retorna el estado del proceso.</returns>
+        Task<int> SaveElements(HistoriaClinicaRequest request);
     }
 }

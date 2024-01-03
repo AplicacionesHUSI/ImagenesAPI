@@ -75,5 +75,45 @@ namespace Imagenes.API.Controllers
             var tipo = elemento.Tipo == "imagen" ? "image/jpg" : "video/mp4";
             return File(image, tipo);
         }
+
+        /// <summary>
+        /// Registrar en la historia clínica del paciente foto, video, imagen o pdf.
+        /// </summary>
+        /// <param name="request"></param>
+        /// <returns></returns>
+        [HttpPost("PostRegistrarInfoHC")]
+        public async Task<ActionResult<ResponseBase<string>>> PostRegistrarInfoHC(HistoriaClinicaRequest request)
+        {
+            var json = JsonConvert.SerializeObject(request);
+            _logger.LogInformation("Request from APP Imagenes PostRegistrarInfoHC :: " + json);
+            var response = new ResponseBase<int>();
+            try
+            {
+                var result = await _service.SaveElements(request);
+                if (result > 0)
+                {
+                    response.Data = result;
+                    response.code = (int)HttpStatusCode.OK;
+                    response.hasError = false;
+                }
+                else
+                {
+                    response.code = (int)HttpStatusCode.BadRequest;
+                    response.Data = 0;
+                    response.hasError = true;
+                }
+            }
+            catch (Exception e)
+            {
+                response.code = (int)HttpStatusCode.InternalServerError;
+                response.message = $"Se ha presentado una excepcion :: " + e.Message;
+                response.Data = 0;
+                response.hasError = true;
+            }
+            response.date = DateTime.Now;
+            json = JsonConvert.SerializeObject(response);
+            _logger.LogInformation("response :: " + json);
+            return StatusCode((int)HttpStatusCode.OK, response); ;
+        }
     }
 }

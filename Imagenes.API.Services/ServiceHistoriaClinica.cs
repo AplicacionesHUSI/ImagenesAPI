@@ -77,6 +77,60 @@ namespace Imagenes.API.Services
            return  request.IdElemento;
         }
 
+        /// <summary>
+        /// Registrar elemento (foto, video, imagen o pdf)
+        /// </summary>
+        /// <param name="request">Datos que se almacenan en la bd.</param>
+        /// <returns>Retorna el estado del proceso.</returns>
+        public async Task<int> SaveElements(HistoriaClinicaRequest request)
+        {
+            var res = request.Elemento;
+            var aux = await _repo.FindGrupo(request.IdRegistro);
+            if (aux == null)
+            {
+                aux = new ElementosGrupo()
+                {
+                    FecCreacion = DateTime.Now,
+                    IdRegistro = request.IdRegistro,
+                    IdAtencion = request.idAtencion,
+                    IdMedico = request.IdMedico
+                };
+
+                if (request.tipoElemento == "asunto")
+                    aux.Asunto = res;
+                if (request.tipoElemento == "observaciones")
+                    aux.Observaciones = res;
+                aux.IdGrupo = await _repo.SaveGrupo(aux);
+            }
+            else
+            {
+                if (request.tipoElemento == "asunto")
+                    aux.Asunto = res;
+                if (request.tipoElemento == "observaciones")
+                    aux.Observaciones = res;
+                await _repo.UpdateGrupo(aux);
+            }
+
+            if (request.tipoElemento == "video" || request.tipoElemento == "imagen" || request.tipoElemento == "foto" || request.tipoElemento == "pdf")
+            {
+                res = res.Replace(_pathFileServer, "");
+                var elemento = new Elemento()
+                {
+                    IdElemento = request.IdElemento,
+                    IdGrupo = aux.IdGrupo,
+                    FecRegistro = DateTime.Now,
+                    Tipo = request.tipoElemento,
+                    Element = res,
+                    NombreElemento = request.nombreElemento
+
+                };
+
+                await _repo.SaveElemento(elemento);
+            }
+
+            return request.IdElemento;
+        }
+
         private string base64ToFile(string data, string tipo,int IdElemento)
         {
 
