@@ -541,3 +541,73 @@
 2024-01-03 15:08:52.0526 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
 2024-01-03 15:08:52.0729 Info Configuration initialized.
 2024-01-03 15:08:53.6163 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-11 15:11:42.9650 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-11 15:11:43.0543 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-11 15:11:43.1206 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-11 15:11:43.1392 Info Configuration initialized.
+2024-01-11 15:11:47.8339 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 08:44:36.8054 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-17 08:44:36.9208 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-17 08:44:37.0283 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 08:44:37.0624 Info Configuration initialized.
+2024-01-17 08:44:42.8052 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:17:08.4563 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-17 09:17:08.5434 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-17 09:17:08.6362 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:17:08.6660 Info Configuration initialized.
+2024-01-17 09:17:10.2082 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:20:27.3951 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-17 09:20:27.4799 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-17 09:20:27.5559 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:20:27.5900 Info Configuration initialized.
+2024-01-17 09:20:28.8984 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:21:49.4981 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-17 09:21:49.5812 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-17 09:21:49.6462 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:21:49.6722 Info Configuration initialized.
+2024-01-17 09:21:51.1698 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Release\net8.0\nlog.config
+2024-01-17 09:22:38.5133 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-17 09:22:38.5880 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-17 09:22:38.6371 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-17 09:22:38.6846 Info Configuration initialized.
+2024-01-17 09:22:40.2361 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-24 10:36:51.4226 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-24 10:36:51.4937 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-24 10:36:51.5416 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-24 10:36:51.5622 Info Configuration initialized.
+2024-01-24 10:36:54.8898 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-24 10:41:10.0926 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-24 10:41:10.2051 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-24 10:41:10.3172 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-24 10:41:10.3429 Info Configuration initialized.
+2024-01-24 10:41:11.6449 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-24 11:41:26.9626 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-01-24 11:41:27.0532 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-01-24 11:41:27.1686 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-01-24 11:41:27.2007 Info Configuration initialized.
+2024-01-24 11:41:28.7277 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:07:50.3138 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-06 16:07:50.3832 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-02-06 16:07:50.4333 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:07:50.4557 Info Configuration initialized.
+2024-02-06 16:07:53.3402 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:13:07.1048 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-06 16:13:07.1591 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-02-06 16:13:07.1993 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:13:07.2241 Info Configuration initialized.
+2024-02-06 16:13:08.0786 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:14:35.6111 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-06 16:14:35.6558 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-02-06 16:14:35.6912 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:14:35.7140 Info Configuration initialized.
+2024-02-06 16:14:36.6431 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:37:33.1635 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-06 16:37:33.2264 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-02-06 16:37:33.2856 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:37:33.3466 Info Configuration initialized.
+2024-02-06 16:37:34.3986 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:38:33.1824 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2024-02-06 16:38:33.2397 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.7.2287. Product version: 5.2.7+a1ef7cd83b5a6a172142a6850f0ced4e759a4b3b. GlobalAssemblyCache: False
+2024-02-06 16:38:33.2795 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config
+2024-02-06 16:38:33.3014 Info Configuration initialized.
+2024-02-06 16:38:34.7612 Info Validating config: TargetNames=alldata, ConfigItems=24, FilePath=D:\spperezp\Projects\Imagenes.API\Imagenes.API\bin\Debug\net8.0\nlog.config

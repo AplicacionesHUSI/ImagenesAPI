@@ -8,7 +8,7 @@ namespace Imagenes.API.Domain.Request
 {
     public class CitasRequest
     {
-        public string idTipoDoc { get; set; }
+        public Int32 idTipoDoc { get; set; }
         public string numDoc { get; set; }
         public Int64 idCita { get; set; }
     }

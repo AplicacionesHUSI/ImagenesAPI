@@ -19,12 +19,10 @@ namespace Imagenes.API.Domain.Response
         public string IdEspecialista { get; set; }
         public string DuracionCita { get; set; }
     }
-    public class ListaCita : Mensajes
+    public class ListaCita 
     {
-        public List<CitaResponse> citasResponses { get; set; }
-    }
-    public class Mensajes
-    {
+        public int Codigo { get; set; }
         public string Mensaje { get; set; }
+        public List<CitaResponse> citasResponses { get; set; }
     }
 }

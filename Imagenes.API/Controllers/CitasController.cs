@@ -7,6 +7,8 @@ using System;
 using Microsoft.Extensions.Logging;
 using Imagenes.API.Domain.Request;
 using Imagenes.API.Domain.Response;
+using Azure;
+using System.Net;
 
 namespace Imagenes.API.Controllers
 {
@@ -33,25 +35,21 @@ namespace Imagenes.API.Controllers
         public IActionResult PostConsultarCita(CitasRequest citasRequest)
         {
             IConfiguration configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            ListaCita response = new ListaCita();
+            List<CitaResponse> listCita = new List<CitaResponse>();
 
             using (SqlConnection con = new SqlConnection(configuration.GetConnectionString("conexion2")))
             {
                 using (SqlCommand cmd = new SqlCommand("ConsultarCitaPaciente", con))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@tipoDoc", citasRequest.idTipoDoc);
+                    cmd.Parameters.AddWithValue("@idTipoID", citasRequest.idTipoDoc);
                     cmd.Parameters.AddWithValue("@numDoc", citasRequest.numDoc);
                     cmd.Parameters.AddWithValue("@idCita", citasRequest.idCita);
                     try
                     {
                         con.Open();
-
                         SqlDataReader reader = cmd.ExecuteReader();
-                        var result = new Dictionary<string, object>();
-
-                        ListaCita response = new ListaCita();
-                        List<CitaResponse> listCita = new List<CitaResponse>();
-
                         if (reader.HasRows)
                         {
                             while (reader.Read())
@@ -67,40 +65,30 @@ namespace Imagenes.API.Controllers
                                 citaResponse.IdEspecialista = reader.IsDBNull(7) ? null : reader.GetString(7);
                                 citaResponse.DuracionCita = reader.IsDBNull(8) ? null : reader.GetString(8);
                                 listCita.Add(citaResponse);
-                                //citaResponse.IdEspecialidad = reader.IsDBNull(0) ? null : reader.GetString(0));
-                                //result.Add(citaResponse.NombreEspecialista, reader.IsDBNull(1) ? null : reader.GetString(1));
-                                //result.Add(citaResponse.EmailEspecialista, reader.IsDBNull(2) ? null : reader.GetString(2));
-                                //result.Add(citaResponse.FechaCita, reader.IsDBNull(3) ? null : reader.GetDateTime(3));
-                                //result.Add(citaResponse.HoraCita, reader.IsDBNull(4) ? null : reader.GetString(4));
-                                //result.Add(citaResponse.IdPaciente, reader.IsDBNull(5) ? null : reader.GetString(5));
-                                //result.Add(citaResponse.IdAtención, reader.IsDBNull(6) ? null : reader.GetInt64(6));
-                                //result.Add(citaResponse.IdEspecialista, reader.IsDBNull(7) ? null : reader.GetString(7));
-                                //result.Add(citaResponse.DuracionCita, reader.IsDBNull(8) ? null : reader.GetString(8));
-                                //result.Add(citaResponse.numeroatencion, reader.IsDBNull(9) ? null : reader.GetInt32(9));
                             }
 
+                            response.Codigo = (int)HttpStatusCode.OK;
+                            response.Mensaje = "Transacción exitosa";
                             response.citasResponses = listCita;
+                            return Ok(response);
                         }
                         else
                         {
-                            //result.Add(citaResponse.status, "true");
-                            //result.Add(citaResponse.message, String.Empty);
-                            //result.Add(citaResponse.estado, "No Atendida");
-                            //result.Add(citaResponse.numeroatencion, String.Empty);
+                            response.Codigo = (int)HttpStatusCode.NoContent;
+                            response.Mensaje = "No hay información";
+                            response.citasResponses = listCita;
+                            return NotFound(response);
                         }
-
-                        return Ok(response.citasResponses);
                     }
-                    catch (Exception e)
+                    catch (Exception ex)
                     {
-                        var result = new Dictionary<string, object>();
-                        result.Add("error", e.Message + e.StackTrace);
-                        return NotFound(result);
+                        response.Codigo = (int)HttpStatusCode.InternalServerError;
+                        response.Mensaje = $"Exception:: {ex.Message}";
+                        response.citasResponses = listCita;
+                        return NotFound(response);
                     }
                 }
             }
-
-            return Ok();
         }
     }
 }
